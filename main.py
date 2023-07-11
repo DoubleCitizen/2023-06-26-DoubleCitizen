@@ -43,3 +43,4 @@ print('Занятое место\t\tНагрудный номер\t\t\tИмя\t\
 for key, value in sorted_results_run.items():
     i += 1
     print(f'{i}\t\t{key}\t\t{value["Name"]}\t\t\t{value["Surname"]}\t\t{value["race_time"]}')
+
